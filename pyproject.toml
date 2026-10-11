@@ -1,0 +1,21 @@
+[project]
+name = "wellsentinel"
+version = "0.1.0"
+description = "Early warning for undesirable events in oil wells (AMD ACT III)"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2",
+  "pyarrow>=16",
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "lightgbm>=4.3",
+  "matplotlib>=3.8",
+  "pyyaml>=6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

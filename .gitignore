@@ -1,0 +1,17 @@
+# data: never commit raw or derived datasets
+data/
+*.parquet
+*.csv
+*.zip
+# env
+.env
+.env.*
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+# artifacts
+artifacts/
+reports/figures/
