@@ -1,17 +1,11 @@
-# data: never commit raw or derived datasets
-data/
-*.parquet
-*.csv
-*.zip
-# env
-.env
-.env.*
-# python
 __pycache__/
-*.py[cod]
-.venv/
+*.pyc
 .pytest_cache/
-.ruff_cache/
-# artifacts
-artifacts/
-reports/figures/
+*.egg-info/
+.venv/
+bundle/
+*.joblib
+horizon_sweep.json
+horizon_smoke.json
+baseline_v2.json
+sweep.log

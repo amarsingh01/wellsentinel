@@ -1,0 +1,120 @@
+{
+  "config": {
+    "per_class": 4,
+    "window_seconds": 300,
+    "stride_seconds": 300
+  },
+  "metrics": {
+    "rows_train": 4489,
+    "rows_test": 741,
+    "positives_train": 2813,
+    "positives_test": 283,
+    "precision": 0.391,
+    "recall": 0.8622,
+    "f1": 0.538,
+    "roc_auc": 0.5642,
+    "mean_lead_seconds": 12866.7
+  },
+  "top_features": [
+    {
+      "feature": "P-JUS-CKP__max",
+      "gain": 27464.46935730178
+    },
+    {
+      "feature": "P-PDG__mean",
+      "gain": 11710.372086246818
+    },
+    {
+      "feature": "P-JUS-CKP__mean",
+      "gain": 8604.777164750285
+    },
+    {
+      "feature": "T-JUS-CKP__mean",
+      "gain": 2758.941022923475
+    },
+    {
+      "feature": "P-PDG__max",
+      "gain": 2435.930768902945
+    },
+    {
+      "feature": "P-JUS-CKGL__mean",
+      "gain": 2120.963621718474
+    },
+    {
+      "feature": "D__P-TPT__minus__P-PDG__min",
+      "gain": 1683.5629181531137
+    },
+    {
+      "feature": "T-TPT__min",
+      "gain": 967.9180899311665
+    },
+    {
+      "feature": "P-JUS-CKGL__std",
+      "gain": 464.7665841652475
+    },
+    {
+      "feature": "P-TPT__min",
+      "gain": 440.177122061516
+    },
+    {
+      "feature": "P-JUS-CKGL__min",
+      "gain": 401.44502351199094
+    },
+    {
+      "feature": "T-MON-CKP__mean",
+      "gain": 383.7868061887125
+    },
+    {
+      "feature": "R__P-PDG__over__P-TPT__mean",
+      "gain": 355.7467970400292
+    },
+    {
+      "feature": "D__P-ANULAR__minus__P-PDG__slope",
+      "gain": 325.1010463654461
+    },
+    {
+      "feature": "D__P-TPT__minus__P-PDG__mean",
+      "gain": 321.32972353195186
+    },
+    {
+      "feature": "P-MON-CKP__max",
+      "gain": 303.1326932327907
+    },
+    {
+      "feature": "QGL__min",
+      "gain": 295.7328474072115
+    },
+    {
+      "feature": "P-TPT__std",
+      "gain": 249.3538874298993
+    },
+    {
+      "feature": "P-PDG__min",
+      "gain": 225.80194601363962
+    },
+    {
+      "feature": "P-ANULAR__std",
+      "gain": 211.14288168881149
+    },
+    {
+      "feature": "T-JUS-CKP__min",
+      "gain": 209.33647597038697
+    },
+    {
+      "feature": "R__P-PDG__over__P-TPT__min",
+      "gain": 191.9080536465856
+    },
+    {
+      "feature": "R__P-PDG__over__P-TPT__max",
+      "gain": 179.7276979740942
+    },
+    {
+      "feature": "T-PDG__max",
+      "gain": 162.72256738537814
+    },
+    {
+      "feature": "P-TPT__mean",
+      "gain": 160.90116458633156
+    }
+  ]
+}
