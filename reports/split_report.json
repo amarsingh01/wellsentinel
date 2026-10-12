@@ -1,0 +1,171 @@
+{
+  "wide_split": [
+    {
+      "split": "train",
+      "instances": 1966,
+      "real_instances": 857,
+      "real_wells": 20,
+      "real": 857,
+      "normal_instances": 454,
+      "anomalous_instances": 1512,
+      "classes": 10
+    },
+    {
+      "split": "validation",
+      "instances": 143,
+      "real_instances": 143,
+      "real_wells": 9,
+      "real": 143,
+      "normal_instances": 81,
+      "anomalous_instances": 62,
+      "classes": 7
+    },
+    {
+      "split": "test",
+      "instances": 119,
+      "real_instances": 119,
+      "real_wells": 11,
+      "real": 119,
+      "normal_instances": 59,
+      "anomalous_instances": 60,
+      "classes": 6
+    }
+  ],
+  "class_well_coverage": [
+    {
+      "class": 0,
+      "real_wells": 9,
+      "train_wells": 6,
+      "validation_wells": 1,
+      "test_wells": 2
+    },
+    {
+      "class": 1,
+      "real_wells": 3,
+      "train_wells": 3,
+      "validation_wells": 0,
+      "test_wells": 0
+    },
+    {
+      "class": 2,
+      "real_wells": 7,
+      "train_wells": 4,
+      "validation_wells": 1,
+      "test_wells": 2
+    },
+    {
+      "class": 3,
+      "real_wells": 2,
+      "train_wells": 2,
+      "validation_wells": 0,
+      "test_wells": 0
+    },
+    {
+      "class": 4,
+      "real_wells": 7,
+      "train_wells": 5,
+      "validation_wells": 1,
+      "test_wells": 1
+    },
+    {
+      "class": 5,
+      "real_wells": 3,
+      "train_wells": 2,
+      "validation_wells": 1,
+      "test_wells": 0
+    },
+    {
+      "class": 6,
+      "real_wells": 2,
+      "train_wells": 2,
+      "validation_wells": 0,
+      "test_wells": 0
+    },
+    {
+      "class": 7,
+      "real_wells": 6,
+      "train_wells": 3,
+      "validation_wells": 1,
+      "test_wells": 2
+    },
+    {
+      "class": 8,
+      "real_wells": 9,
+      "train_wells": 5,
+      "validation_wells": 2,
+      "test_wells": 2
+    },
+    {
+      "class": 9,
+      "real_wells": 15,
+      "train_wells": 8,
+      "validation_wells": 4,
+      "test_wells": 3
+    }
+  ],
+  "old_split": [
+    {
+      "split": "train",
+      "instances": 139,
+      "wells": 38,
+      "normal_instances": 20,
+      "anomalous_instances": 119
+    },
+    {
+      "split": "validation",
+      "instances": 8,
+      "wells": 3,
+      "normal_instances": 0,
+      "anomalous_instances": 8
+    },
+    {
+      "split": "test",
+      "instances": 13,
+      "wells": 3,
+      "normal_instances": 0,
+      "anomalous_instances": 13
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "test_instances": 335,
+      "test_wells": 4,
+      "test_normal_instances": 209,
+      "test_anomalous_instances": 126,
+      "train_instances": 1893
+    },
+    {
+      "fold": 1,
+      "test_instances": 287,
+      "test_wells": 8,
+      "test_normal_instances": 150,
+      "test_anomalous_instances": 137,
+      "train_instances": 1941
+    },
+    {
+      "fold": 2,
+      "test_instances": 119,
+      "test_wells": 11,
+      "test_normal_instances": 38,
+      "test_anomalous_instances": 81,
+      "train_instances": 2109
+    },
+    {
+      "fold": 3,
+      "test_instances": 216,
+      "test_wells": 9,
+      "test_normal_instances": 82,
+      "test_anomalous_instances": 134,
+      "train_instances": 2012
+    },
+    {
+      "fold": 4,
+      "test_instances": 162,
+      "test_wells": 8,
+      "test_normal_instances": 115,
+      "test_anomalous_instances": 47,
+      "train_instances": 2066
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "fold0": {
+    "train_wells": 36,
+    "test_wells": 4,
+    "fit_n": 5077,
+    "test_n": 2145,
+    "train_pos_rate": 0.1101,
+    "test_pos_rate": 0.0149,
+    "train_ap": 0.3092,
+    "test_ap": 0.0116,
+    "best_epoch": 0,
+    "history_tail": [
+      {
+        "epoch": 2,
+        "loss": 0.9229934815348944,
+        "val_ap": 0.2855771480479643
+      },
+      {
+        "epoch": 3,
+        "loss": 0.8685927486029905,
+        "val_ap": 0.30144481268369944
+      }
+    ]
+  },
+  "fold1": {
+    "train_wells": 32,
+    "test_wells": 8,
+    "fit_n": 5978,
+    "test_n": 1623,
+    "train_pos_rate": 0.0925,
+    "test_pos_rate": 0.0542,
+    "train_ap": 0.3063,
+    "test_ap": 0.0944,
+    "best_epoch": 0,
+    "history_tail": [
+      {
+        "epoch": 2,
+        "loss": 0.8611120045404443,
+        "val_ap": 0.5935493384000534
+      },
+      {
+        "epoch": 3,
+        "loss": 0.8281980289109537,
+        "val_ap": 0.5643297564872778
+      }
+    ]
+  },
+  "fold2": {
+    "train_wells": 29,
+    "test_wells": 11,
+    "fit_n": 6115,
+    "test_n": 1010,
+    "train_pos_rate": 0.0811,
+    "test_pos_rate": 0.1772,
+    "train_ap": 0.3389,
+    "test_ap": 0.2182,
+    "best_epoch": 1,
+    "history_tail": [
+      {
+        "epoch": 3,
+        "loss": 0.859480155342832,
+        "val_ap": 0.24224310422368706
+      },
+      {
+        "epoch": 4,
+        "loss": 0.8229480042286028,
+        "val_ap": 0.4030662953031374
+      }
+    ]
+  },
+  "fold3": {
+    "train_wells": 31,
+    "test_wells": 9,
+    "fit_n": 6263,
+    "test_n": 1084,
+    "train_pos_rate": 0.0581,
+    "test_pos_rate": 0.2804,
+    "train_ap": 0.1994,
+    "test_ap": 0.5672,
+    "best_epoch": 0,
+    "history_tail": [
+      {
+        "epoch": 2,
+        "loss": 0.9702935130493758,
+        "val_ap": 0.44807227346748274
+      },
+      {
+        "epoch": 3,
+        "loss": 0.897007381270797,
+        "val_ap": 0.44686605719489103
+      }
+    ]
+  },
+  "fold4": {
+    "train_wells": 32,
+    "test_wells": 8,
+    "fit_n": 5548,
+    "test_n": 1848,
+    "train_pos_rate": 0.0982,
+    "test_pos_rate": 0.0455,
+    "train_ap": 0.3791,
+    "test_ap": 0.0377,
+    "best_epoch": 0,
+    "history_tail": [
+      {
+        "epoch": 2,
+        "loss": 0.7835092911981556,
+        "val_ap": 0.4418416461429274
+      },
+      {
+        "epoch": 3,
+        "loss": 0.7407223590003044,
+        "val_ap": 0.41567091614423146
+      }
+    ]
+  }
+}
